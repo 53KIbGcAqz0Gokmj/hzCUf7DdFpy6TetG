@@ -24,7 +24,9 @@ Predict if a given sequence of images contains an action of flipping.
 
 Defining the Network
 
-initialiser: https://www.tensorflow.org/api_docs/python/tf/keras/initializers/HeUniform Activation functions: https://medium.com/@cmukesh8688/activation-functions-sigmoid-tanh-relu-leaky-relu-softmax-50d3778dcea5 -->
+initialiser: https://www.tensorflow.org/api_docs/python/tf/keras/initializers/HeUniform 
+
+Activation functions: https://medium.com/@cmukesh8688/activation-functions-sigmoid-tanh-relu-leaky-relu-softmax-50d3778dcea5 -->
 
 Use ReLu and sigmoid for the last Optimizer: https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/ -->
 
@@ -35,6 +37,7 @@ Adam: https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-le
 
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/b2b1bf70-b2d7-41e2-b528-cc17a7562e51)
+
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/77ba3483-f03b-4fd1-98f5-6de43f041518)
 
