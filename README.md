@@ -15,3 +15,9 @@ Evaluate model performance based on F1 score, the higher the better.
 # Bonus(es):
 
 Predict if a given sequence of images contains an action of flipping.
+
+# Methodology
+
+## Images before Data Preprocessing
+
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/e74660ed-79cf-4159-ab66-2f23275e1448)
