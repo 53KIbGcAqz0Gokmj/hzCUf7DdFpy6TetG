@@ -20,9 +20,19 @@ Predict if a given sequence of images contains an action of flipping.
 
 ## Images before Data Preprocessing
 
-![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/e74660ed-79cf-4159-ab66-2f23275e1448)
+## CNN
 
-![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/394a2ed5-0c45-4aae-bda8-26382410d3e6)
+Defining the Network
+
+initialiser: https://www.tensorflow.org/api_docs/python/tf/keras/initializers/HeUniform Activation functions: https://medium.com/@cmukesh8688/activation-functions-sigmoid-tanh-relu-leaky-relu-softmax-50d3778dcea5 -->
+
+Use ReLu and sigmoid for the last Optimizer: https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/ -->
+
+Adam: https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
+
+
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/460f834b-1612-49c1-8dc6-204011d9d9a2)
+
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/b2b1bf70-b2d7-41e2-b528-cc17a7562e51)
 
@@ -31,6 +41,12 @@ Predict if a given sequence of images contains an action of flipping.
 Using a maxlen of 10, which is much smaller than maxlen of 27, for training and a maxlen of 5 for validation works really well for validation accuracy. You get around 96% val accuracy. Increasing maxlen for training beyond 10 doesn’t seem to improve val accuracy.
 
 To evaluate the model on the test set, I used a maxlen of 4; 95% of the test sequences have a length that is less than or equal to 6, but using a maxlen of 4 gives better results. After evaluating on the test set, I got a test accuracy of 98.06%, a precision of 1, a recall of 0.96, and a f1score of 0.98
+
+# Success Metrics:
+
+* Evaluate model performance based on F1 score, the higher the better.
+
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/34a1ceda-3a62-490e-b327-0f79f1a607fa)
 
 # Conclusion:
 
