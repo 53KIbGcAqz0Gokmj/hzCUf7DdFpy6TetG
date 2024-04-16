@@ -20,6 +20,8 @@ Predict if a given sequence of images contains an action of flipping.
 
 ## Images before Data Preprocessing
 
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/0354486a-14c5-437f-bfe7-49a953ea1ab5)
+
 ## CNN
 
 Defining the Network
@@ -37,9 +39,6 @@ Adam: https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-le
 * One of our tasks was to classify sequences of images as flip or notflip; that is, we want to classify a short video clip as displaying the flipping action or not. In order to do this, we use the Resnet18 model to extract features from each image in a given sequence and then use an LSTM to learn the sequential nature from frame to frame.
 
 * I padded the training sequences using a maxlen of 10. 95% of the training sequences have a length that is less than or equal to 27. Further, 95% of the validation sequences have a length that is less than or equal to 5. Using a maxlen of 10 is a sort of compromise and leads to good performance. I padded the validation sequences using a maxlen of 5. After training for 20 epochs, here are the accuracy and loss plots:
-
-![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/b2b1bf70-b2d7-41e2-b528-cc17a7562e51)
-
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/77ba3483-f03b-4fd1-98f5-6de43f041518)
 
