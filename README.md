@@ -24,7 +24,7 @@ Predict if a given sequence of images contains an action of flipping.
 
 ## CNN
 
-Defining the Network
+* Convolutional Neural Networks (CNNs) to develop an image classification system capable of identifying 'flip' or 'not flip' conditions within images. 
 
 initialiser: https://www.tensorflow.org/api_docs/python/tf/keras/initializers/HeUniform 
 
@@ -54,8 +54,14 @@ To evaluate the model on the test set, I used a maxlen of 4; 95% of the test seq
 
 # Conclusion:
 
-In this project, I trained a traditional CNN model to classify images as flip or notflip with 95% accuracy, and I used transfer learning to fine-tune a pretrained Resnet18 model to classify images with 99% accuracy. The pretrained model performed better than the CNN and took less time to train. However, both models did not generalize well when applied to images that were not as realistic-looking as the ones the models were trained on. Finally, I applied a CNN/LSTM combined model to classify sequences of images, or ‘videos’, as flip or notflip with 98% accuracy. The choice of a good maxlen value was crucial in getting optimal performance.
+In this project, I developed and evaluated several models for image and video classification tasks, focusing on the 'flip' or 'not flip' scenarios:
 
-The image and video analyses performed in this project are useful not only for the mobile app, MonReader, that automates document digitization but also for image classification tasks like medical image analysis and activity/motion detection tasks like automated surveillance.
+* Traditional CNN Model: I trained a traditional CNN model to classify images as flip or not flip with 95% accuracy. This model established our foundational approach to image classification.
+
+* Transfer Learning with Resnet18: By employing transfer learning techniques on a pretrained Resnet18 model, I enhanced the classification accuracy to 99%. This model required less training time and achieved better performance compared to the traditional CNN.
+
+* Combined CNN/LSTM Model: For video sequence analysis, I used a combined CNN/LSTM model to classify sequences of images, or ‘videos’, achieving an accuracy of 98%. The selection of an optimal maxlen value was crucial for attaining this high level of performance.
+
+* The image and video analyses performed in this project are useful not only for the mobile app, MonReader, that automates document digitization but also for image classification tasks like medical image analysis and activity/motion detection tasks like automated surveillance.
 
 
