@@ -21,3 +21,10 @@ Predict if a given sequence of images contains an action of flipping.
 ## Images before Data Preprocessing
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/e74660ed-79cf-4159-ab66-2f23275e1448)
+
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/394a2ed5-0c45-4aae-bda8-26382410d3e6)
+
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/b2b1bf70-b2d7-41e2-b528-cc17a7562e51)
+
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/78e8348f-d970-459c-aead-42ccb175ef3b)  ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/3a2757e7-1a99-45bb-9e71-9e44b915d218)
+
