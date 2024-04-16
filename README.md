@@ -26,9 +26,7 @@ Predict if a given sequence of images contains an action of flipping.
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/b2b1bf70-b2d7-41e2-b528-cc17a7562e51)
 
-![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/78e8348f-d970-459c-aead-42ccb175ef3b) 
-
-![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/41068f11-f777-4494-8fc6-5a0fb1810ffc)
+![image](https://github.com/53KIbGcAqz0Gokmj/hzCUf7DdFpy6TetG/assets/143815258/77ba3483-f03b-4fd1-98f5-6de43f041518)
 
 Using a maxlen of 10, which is much smaller than maxlen of 27, for training and a maxlen of 5 for validation works really well for validation accuracy. You get around 96% val accuracy. Increasing maxlen for training beyond 10 doesn’t seem to improve val accuracy.
 
