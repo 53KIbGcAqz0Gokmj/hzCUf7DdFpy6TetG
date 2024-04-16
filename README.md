@@ -26,13 +26,13 @@ Predict if a given sequence of images contains an action of flipping.
 
 * Convolutional Neural Networks (CNNs) to develop an image classification system capable of identifying 'flip' or 'not flip' conditions within images. 
 
-initialiser: https://www.tensorflow.org/api_docs/python/tf/keras/initializers/HeUniform 
+* initialiser: https://www.tensorflow.org/api_docs/python/tf/keras/initializers/HeUniform 
 
-Activation functions: https://medium.com/@cmukesh8688/activation-functions-sigmoid-tanh-relu-leaky-relu-softmax-50d3778dcea5 -->
+* Activation functions: https://medium.com/@cmukesh8688/activation-functions-sigmoid-tanh-relu-leaky-relu-softmax-50d3778dcea5 -->
 
-Use ReLu and sigmoid for the last Optimizer: https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/ -->
+* Use ReLu and sigmoid for the last Optimizer: https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/ -->
 
-Adam: https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
+* Adam: https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
 
 ## Sequence Classification:
 
